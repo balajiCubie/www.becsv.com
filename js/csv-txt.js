@@ -1,0 +1,2 @@
+function assignText(s){if((document.getElementById('chkReplaceAccents')).checked)s=s.removeDiacritics();document.getElementById('txt1').value=s;parseAndOptions(CSV);setupSortDD();document.getElementById('btnRun').click();}
+function runit(){if(CSV.mySortNeeded)parseAndOptions(CSV);document.getElementById('txta').value=csvToFixed(CSV,document.getElementById('txtSep').value,document.getElementById('chkTableize').checked,document.getElementById('chkLineNumbers').checked,document.getElementById('chkRuler').checked,document.getElementById('chkLineSep').checked);saveCsv();}
