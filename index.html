@@ -2,236 +2,335 @@
 <html lang="en">
 
 <!-- Mirrored from www.becsv.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 19 Nov 2023 01:39:43 GMT -->
+
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="keywords" content="Comma-Separated Values, csv file, csv excel, csv import, csv to excel,  csv php, format csv,read csv ">
-<meta name="description" content="Provide you CSV Editor / Viwer, Convert csv to or from YAML, XML, HTML Table, Multie lines, KML, YAML, TXT, TSV and so on.">
-<title>Be CSV, Free CSV Convert tool online, Just Make CSV Easy!</title>
-<link rel="stylesheet" href="../maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-<script src="../ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
-<script src="../maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords"
+        content="Comma-Separated Values, csv file, csv excel, csv import, csv to excel,  csv php, format csv,read csv ">
+    <meta name="description"
+        content="Provide you CSV Editor / Viwer, Convert csv to or from YAML, XML, HTML Table, Multie lines, KML, YAML, TXT, TSV and so on.">
+    <title>Be CSV, Free CSV Convert tool online, Just Make CSV Easy!</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 </head>
+
 <body>
-<nav class="navbar navbar-default" role="navigation">
-<div class="container">
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
 
-<div class="navbar-header">
-<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-<span class="sr-only">Toggle navigation</span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-</button>
-<a class="navbar-brand" href="index.html">BE CSV</a>
-</div>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">BE CSV</a>
+            </div>
 
-<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-<ul class="nav navbar-nav">
-<li class="dropdown">
-<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-pencil"></i> Convert from CSV <span class="glyphicon glyphicon-chevron-down"></span></a>
-<ul class="dropdown-menu" role="menu">
-<li><a href="csv-table.html"><span class="glyphicon glyphicon-tasks"></span> Convert CSV to Table</a></li>
-<li><a href="csv-lines.html"><span class="glyphicon glyphicon-tasks"></span> Convert CSV to Lines</a></li>
-<li><a href="csv-kml.html"><span class="glyphicon glyphicon-tasks"></span> Convert CSV to KML</a></li>
-<li><a href="csv-yaml.html"><span class="glyphicon glyphicon-tasks"></span> Convert CSV to YAML</a></li>
-<li><a href="csv-xml.html"><span class="glyphicon glyphicon-tasks"></span> Convert CSV to XML</a></li>
-<li><a href="csv-txt.html"><span class="glyphicon glyphicon-tasks"></span> Convert CSV to TXT</a></li>
-<li><a href="csv-tsv.html"><span class="glyphicon glyphicon-tasks"></span> Convert CSV to TSV</a></li>
-<li><a target="_blank" href="https://www.worldstandardtime.com/">World Time</a></li>
-<li><a target="_blank" href="https://www.azpostcodes.com/">World Postcodes</a></li>
-<li><a target="_blank" href="https://www.azcodepostal.com/">Code Postal Mondial</a></li>
-<li><a target="_blank" href="https://www.codigopostalmundo.com/">Código Postal Mundo</a></li>
-<li><a target="_blank" href="http://www.withcountry.com/">World Business Place</a></li>
-</ul>
-</li>
-<li class="dropdown">
-<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-wrench"></i> Convert To CSV <span class="glyphicon glyphicon-chevron-down"></span></a>
-<ul class="dropdown-menu" role="menu">
-<li><a href="table-csv.html"><span class="glyphicon glyphicon-tasks"></span> Convert Table TO CSV</a></li>
-<li><a href="xml-csv.html"><span class="glyphicon glyphicon-tasks"></span> Convert XML TO CSV</a></li>
-<li><a href="yaml-csv.html"><span class="glyphicon glyphicon-tasks"></span> Convert YAML TO CSV</a></li>
-<li><a href="csv-viewer.html"><span class="glyphicon glyphicon-tasks"></span> CSV Viewer</a></li>
-<li><a href="csv-transpose.html"><span class="glyphicon glyphicon-tasks"></span> CSV transpose tool</a></li>
-</ul>
-</li>
-<li><a href="csv-viewer.html">CSV Viewer</a></li>
-<li><a href="csv.html">What is CSV?</a></li>
-</ul>
-</div>
-</div>
-</nav>
-<div class="container">
-<div class="row">
-<div class="col-md-3">
-<a href="index.html">
-<div id="logo">
-<img width="250px" src="logo.png">
-</div>
-</a>
-</div>
-<div class="col-md-9">
-<div style="display: table; height: 177px; overflow: hidden;">
-<div style="display: table-cell; vertical-align: middle;">
-<div id="site-title">
-<h1>Be CSV <small>Free CSV Convert tool online, Just Make CSV Easy!</small></h1>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="col-md-12">
-<div class="row">
-<div class="col-md-3">
-<div class="row">
-<div id="tool-list">
-<div>
-<h4>Convert from CSV</h4>
-<ul>
-<li><a href="csv-table.html">Convert CSV to Table</a>
-</li>
-<li><a href="csv-lines.html">Convert CSV to Lines</a>
-</li>
-<li><a href="csv-kml.html">Convert CSV to KML</a>
-</li>
-<li><a href="csv-xml.html">Convert CSV to XML</a>
-</li>
-<li><a href="csv-yaml.html">Convert CSV to YAML</a>
-</li>
-<li><a href="csv-txt.html">Convert CSV to TXT</a>
-</li>
-<li><a href="csv-tsv.html">Convert CSV to TSV</a>
-</li>
-<li><a href="csv-json.html">Convert CSV to JSON</a>
-</li>
-<li><a href="https://www.beautifyconverter.com/csv-to-excel-converter.php">Convert CSV to Excel</a>
-<li><a href="https://www.beautifyconverter.com/csv-to-html-converter.php">Convert CSV to HTML</a>
-<li><a href="https://www.beautifyconverter.com/csv-to-sql-converter.php">Convert CSV to SQL</a>
-<li><a href="https://www.beautifyconverter.com/csv-column-extractor.php">CSV column Extract</a>
-</ul>
-</div>
-<div>
-<h4>Convert to CSV</h4>
-<ul>
-<li><a href="table-csv.html">Convert Table TO CSV</a>
-</li>
-<li><a href="xml-csv.html">Convert XML TO CSV</a>
-</li>
-<li><a href="yaml-csv.html">Convert YAML TO CSV</a>
-</li>
-<li><a href="json-csv.html">Convert JSON to CSV</a>
-</li>
-<li><a href="https://www.beautifyconverter.com/excel-to-csv-converter.php">Convert Excel to CSV</a>
-<li><a href="https://www.beautifyconverter.com/tsv-to-csv-converter.php">Convert TSV to CSV</a>
-<li><a href="https://www.beautifyconverter.com/html-to-csv-converter.php">Convert HTML to CSV</a>
-<li><a href="https://www.beautifyconverter.com/sql-to-csv-converter.php">Convert SQL to CSV</a>
-</ul>
-</div>
-<div>
-<h4>CSV Tool</h4>
-<ul>
-<li><a href="csv-viewer.html">CSV Viewer</a>
-</li>
-<li><a href="csv-transpose.html">CSV transpose tool</a>
-</li>
-<li><a target="_blank" href="http://www.placegrab.com/">World Places</a></li>
-<li><a target="_blank" href="https://www.codepostalmonde.com/"><img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/4.1.4/flags/4x3/fr.svg" height="12"> Code Postal</a></li>
-<li><a target="_blank" href="https://www.plzfinden.com/"><img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/4.1.4/flags/4x3/de.svg" height="12"> PLZ Finden</a></li>
-<li><a target="_blank" href="https://www.azcodigopostal.com/"><img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/4.1.4/flags/4x3/es.svg" height="12"> Código Postal</a></li>
-<li><a target="_blank" href="https://www.getattractions.com/"><img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/4.1.4/flags/4x3/fr.svg" height="12"> Get Attractions</a></li>
-<li><a target="_blank" href="https://www.tripexpress.org/"><img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/4.1.4/flags/4x3/us.svg" height="12"> Trip Express</a></li>
-<li><a target="_blank" href="https://www.withtrips.com/"><img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/4.1.4/flags/4x3/jp.svg" height="12"> With Trips</a></li>
-<li><a target="_blank" href="https://www.tripsaide.com/"><img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/4.1.4/flags/4x3/de.svg" height="12"> Trips Aide</a></li>
-<li><a target="_blank" href="https://www.getbankcodes.com/">Get Bank Codes</a></li>
-<li><a target="_blank" href="https://www.getbincodes.com/">Get BIN Codes</a></li>
-<li><a target="_blank" href="https://www.countrycoordinate.com/">Country Coordinate</a></li>
-<li><a target="_blank" href="https://www.placegrab.com/">World Places</a></li>
-<li><a target="_blank" href="https://www.thinkcalculator.com/">Think Calculators</a></li>
-<li><a target="_blank" href="https://www.callerinfo.org/">Area Codes</a></li>
-<li><a target="_blank" href="index.html">CSV Tools</a></li>
-<li><a target="_blank" href="http://www.worldstandardtime.com/"><img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/4.1.4/flags/4x3/us.svg" height="12"> World Time</a></li>
-<li><a target="_blank" href="https://www.azpostcodes.com/"><img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/4.1.4/flags/4x3/gb.svg" height="12"> World Postcodes</a></li>
-<li><a target="_blank" href="https://www.azcodepostal.com/"><img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/4.1.4/flags/4x3/fr.svg" height="12"> Code Postal Mondial</a></li>
-<li><a target="_blank" href="https://www.codigopostalmundo.com/"><img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/4.1.4/flags/4x3/es.svg" height="12"> Código Postal Mundo</a></li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-<div class="col-md-9">
-<div class="row">
-<div class="col-md-12">
-<div>
-<h4>Tools Available:</h4>
-<div>
-<div>
-<h3>Convert from CSV</h3>
-<div>
-<h4><a href="csv-table.html">Convert CSV to Table</a></h4>
-<p>How To Convert CSV file to an HTML table? Copy your CSV data and click convert button then html table will display in code below and you could preview a HTML Table. You could control the result like: Double quotes as data, Replace Accents, Add Line Numbers, Add Table Heading, Sum Numeric Fields and so on.</p>
-</div>
-<div>
-<h4><a href="csv-lines.html">Convert CSV to Lines</a></h4>
-<p>How to convert a csv file to Multi-lines plain text file? Easy! Copy your CSV data, paste them in text area, click the Converter button get your result. The CSV each field will display in a new line. You can add spaces or define the separator for your Multi-lines text result.</p>
-</div>
-<div>
-<h4><a href="csv-kml.html">Convert CSV to KML</a></h4>
-<p>The KML means Keyhole Markup Language, it is an XML notation for expressing geographic annotation and visualization within Internet-based, two or three-dimensional Earth browsers. To use this tool, you need enter latitude and longitude and a description then get your resutl, If you don't know how to do it, clicks the example get instruction.</p>
-</div>
-<div>
-<h4><a href="csv-yaml.html">Convert CSV to YAML</a></h4>
-<p>YAML is a human-readable data serialization format that takes concepts from programming languages such as Perl, C, and Python. The tool will help you reformat CSV into XML format.</p>
-</div>
-<div>
-<h4><a href="csv-xml.html">Convert CSV to XML</a></h4>
-<p>XML means Extensible Markup Language. It is a markup language that defines a set of rules for encoding documents in a format which is both human-readable and machine-readable. The tool will help you convert a CSV file to XML fomat, it will add markup for you CSV data.</p>
-</div>
-<div>
-<h4><a href="csv-txt.html">Convert CSV to TXT</a></h4>
-<p>The fixed width text file is a file that has a specific format which textual data or information in an organized fashion. The tool will help your convert a CSV data into fixed width text for read or use. You can control the result like add ASCII Table, Separator Lines, Line Numbers and so on.</p>
-</div>
-<div>
-<h4><a href="csv-tsv.html">Convert CSV to TSV</a></h4>
-<p>TSV means tab-separated values, The file is a simple text format for storing data in a tabular structure (e.g. spreadsheet data or database). DSV means delimiter-separated values, The file store two-dimensional arrays of data by separating the values in each row with specific delimiter characters. The tool will help you convert a CSV file to TSV or DSV file. Copy you CSV data and paste them in text area, choose a new delimiter get your reformat file.</p>
-</div>
-</div>
-<div>
-<h3>Convert to CSV</h3>
-<div>
-<h4><a href="table-csv.html">Convert Table TO CSV</a></h4>
-<p>How To Convert HTML Table file to CSV file? Copy and paste your HTML Table code into the text area, select the option like "Wrap values, Change line breaks to space, Remove HTML tags" then get your result.<</p>
-</div>
-<div>
-<h4><a href="xml-csv.html">Convert XML TO CSV</a></h4>
-<p>XML means Extensible Markup Language. The tool will help you convert a XML file to CSV file. You could change the result style like "wrap vaules, include header, suppress line breaks" for your use.</p>
-</div>
-<div>
-<h4><a href="yaml-csv.html">Convert YAML TO CSV</a></h4>
-<p>YAML is a human-readable data serialization format. The tool will help you reformat YAML into CSV format. You could change the result style like "wrap vaules, include header, suppress line breaks" for your use.</p>
-</div>
-</li>
-</div>
-<div>
-<h3>CSV Viewer</h3>
-<div>
-<h4><a href="csv-viewer.html">CSV Viewer</a></h4>
-<p>The tool will help you view your CSV or various formats of delimited files online when load your file. The CSV Viewer is very powerful, in the display filed, click the column heading it will sort the columns, move cursor to right side of column heading resize your columns and so on.</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="row">
-<div class="col-md-12">
-<div class="alert alert-info">Copyright ©2012~2023 <a href="index.html">Be CSV</a> | <a href="http://www.allcallers.com/">AllCallers</a> | <a href="http://www.callerinfo.org/">CallerInfo</a> | <a target="_blank" class="dropdown-item" href="https://www.thinkcalculator.com/">Think Calculators</a> | <a target="_blank" class="dropdown-item" href="https://www.callerinfo.org/">Area Codes</a></div>
-</div>
-</div> </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i
+                                class="glyphicon glyphicon-pencil"></i> Convert from CSV <span
+                                class="glyphicon glyphicon-chevron-down"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="csv-table.html"><span class="glyphicon glyphicon-tasks"></span> Convert CSV to
+                                    Table</a></li>
+                            <li><a href="csv-lines.html"><span class="glyphicon glyphicon-tasks"></span> Convert CSV to
+                                    Lines</a></li>
+                            <li><a href="csv-kml.html"><span class="glyphicon glyphicon-tasks"></span> Convert CSV to
+                                    KML</a></li>
+                            <li><a href="csv-yaml.html"><span class="glyphicon glyphicon-tasks"></span> Convert CSV to
+                                    YAML</a></li>
+                            <li><a href="csv-xml.html"><span class="glyphicon glyphicon-tasks"></span> Convert CSV to
+                                    XML</a></li>
+                            <li><a href="csv-txt.html"><span class="glyphicon glyphicon-tasks"></span> Convert CSV to
+                                    TXT</a></li>
+                            <li><a href="csv-tsv.html"><span class="glyphicon glyphicon-tasks"></span> Convert CSV to
+                                    TSV</a></li>
+                            <li><a target="_blank" href="https://www.worldstandardtime.com/">World Time</a></li>
+                            <li><a target="_blank" href="https://www.azpostcodes.com/">World Postcodes</a></li>
+                            <li><a target="_blank" href="https://www.azcodepostal.com/">Code Postal Mondial</a></li>
+                            <li><a target="_blank" href="https://www.codigopostalmundo.com/">Código Postal Mundo</a>
+                            </li>
+                            <li><a target="_blank" href="http://www.withcountry.com/">World Business Place</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i
+                                class="glyphicon glyphicon-wrench"></i> Convert To CSV <span
+                                class="glyphicon glyphicon-chevron-down"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="table-csv.html"><span class="glyphicon glyphicon-tasks"></span> Convert Table
+                                    TO CSV</a></li>
+                            <li><a href="xml-csv.html"><span class="glyphicon glyphicon-tasks"></span> Convert XML TO
+                                    CSV</a></li>
+                            <li><a href="yaml-csv.html"><span class="glyphicon glyphicon-tasks"></span> Convert YAML TO
+                                    CSV</a></li>
+                            <li><a href="csv-viewer.html"><span class="glyphicon glyphicon-tasks"></span> CSV Viewer</a>
+                            </li>
+                            <li><a href="csv-transpose.html"><span class="glyphicon glyphicon-tasks"></span> CSV
+                                    transpose tool</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="csv-viewer.html">CSV Viewer</a></li>
+                    <li><a href="csv.html">What is CSV?</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <a href="index.html">
+                    <div id="logo">
+                        <img width="250px" src="logo.png">
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-9">
+                <div style="display: table; height: 177px; overflow: hidden;">
+                    <div style="display: table-cell; vertical-align: middle;">
+                        <div id="site-title">
+                            <h1>Be CSV <small>Free CSV Convert tool online, Just Make CSV Easy!</small></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="row">
+                        <div id="tool-list">
+                            <div>
+                                <h4>Convert from CSV</h4>
+                                <ul>
+                                    <li><a href="csv-table.html">Convert CSV to Table</a>
+                                    </li>
+                                    <li><a href="csv-lines.html">Convert CSV to Lines</a>
+                                    </li>
+                                    <li><a href="csv-kml.html">Convert CSV to KML</a>
+                                    </li>
+                                    <li><a href="csv-xml.html">Convert CSV to XML</a>
+                                    </li>
+                                    <li><a href="csv-yaml.html">Convert CSV to YAML</a>
+                                    </li>
+                                    <li><a href="csv-txt.html">Convert CSV to TXT</a>
+                                    </li>
+                                    <li><a href="csv-tsv.html">Convert CSV to TSV</a>
+                                    </li>
+                                    <li><a href="csv-json.html">Convert CSV to JSON</a>
+                                    </li>
+                                    <li><a href="https://www.beautifyconverter.com/csv-to-excel-converter.php">Convert
+                                            CSV to Excel</a>
+                                    <li><a href="https://www.beautifyconverter.com/csv-to-html-converter.php">Convert
+                                            CSV to HTML</a>
+                                    <li><a href="https://www.beautifyconverter.com/csv-to-sql-converter.php">Convert CSV
+                                            to SQL</a>
+                                    <li><a href="https://www.beautifyconverter.com/csv-column-extractor.php">CSV column
+                                            Extract</a>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4>Convert to CSV</h4>
+                                <ul>
+                                    <li><a href="table-csv.html">Convert Table TO CSV</a>
+                                    </li>
+                                    <li><a href="xml-csv.html">Convert XML TO CSV</a>
+                                    </li>
+                                    <li><a href="yaml-csv.html">Convert YAML TO CSV</a>
+                                    </li>
+                                    <li><a href="json-csv.html">Convert JSON to CSV</a>
+                                    </li>
+                                    <li><a href="https://www.beautifyconverter.com/excel-to-csv-converter.php">Convert
+                                            Excel to CSV</a>
+                                    <li><a href="https://www.beautifyconverter.com/tsv-to-csv-converter.php">Convert TSV
+                                            to CSV</a>
+                                    <li><a href="https://www.beautifyconverter.com/html-to-csv-converter.php">Convert
+                                            HTML to CSV</a>
+                                    <li><a href="https://www.beautifyconverter.com/sql-to-csv-converter.php">Convert SQL
+                                            to CSV</a>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4>CSV Tool</h4>
+                                <ul>
+                                    <li><a href="csv-viewer.html">CSV Viewer</a>
+                                    </li>
+                                    <li><a href="csv-transpose.html">CSV transpose tool</a>
+                                    </li>
+                                    <li><a target="_blank" href="http://www.placegrab.com/">World Places</a></li>
+                                    <li><a target="_blank" href="https://www.codepostalmonde.com/"><img
+                                                src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/4.1.4/flags/4x3/fr.svg"
+                                                height="12"> Code Postal</a></li>
+                                    <li><a target="_blank" href="https://www.plzfinden.com/"><img
+                                                src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/4.1.4/flags/4x3/de.svg"
+                                                height="12"> PLZ Finden</a></li>
+                                    <li><a target="_blank" href="https://www.azcodigopostal.com/"><img
+                                                src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/4.1.4/flags/4x3/es.svg"
+                                                height="12"> Código Postal</a></li>
+                                    <li><a target="_blank" href="https://www.getattractions.com/"><img
+                                                src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/4.1.4/flags/4x3/fr.svg"
+                                                height="12"> Get Attractions</a></li>
+                                    <li><a target="_blank" href="https://www.tripexpress.org/"><img
+                                                src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/4.1.4/flags/4x3/us.svg"
+                                                height="12"> Trip Express</a></li>
+                                    <li><a target="_blank" href="https://www.withtrips.com/"><img
+                                                src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/4.1.4/flags/4x3/jp.svg"
+                                                height="12"> With Trips</a></li>
+                                    <li><a target="_blank" href="https://www.tripsaide.com/"><img
+                                                src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/4.1.4/flags/4x3/de.svg"
+                                                height="12"> Trips Aide</a></li>
+                                    <li><a target="_blank" href="https://www.getbankcodes.com/">Get Bank Codes</a></li>
+                                    <li><a target="_blank" href="https://www.getbincodes.com/">Get BIN Codes</a></li>
+                                    <li><a target="_blank" href="https://www.countrycoordinate.com/">Country
+                                            Coordinate</a></li>
+                                    <li><a target="_blank" href="https://www.placegrab.com/">World Places</a></li>
+                                    <li><a target="_blank" href="https://www.thinkcalculator.com/">Think Calculators</a>
+                                    </li>
+                                    <li><a target="_blank" href="https://www.callerinfo.org/">Area Codes</a></li>
+                                    <li><a target="_blank" href="index.html">CSV Tools</a></li>
+                                    <li><a target="_blank" href="http://www.worldstandardtime.com/"><img
+                                                src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/4.1.4/flags/4x3/us.svg"
+                                                height="12"> World Time</a></li>
+                                    <li><a target="_blank" href="https://www.azpostcodes.com/"><img
+                                                src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/4.1.4/flags/4x3/gb.svg"
+                                                height="12"> World Postcodes</a></li>
+                                    <li><a target="_blank" href="https://www.azcodepostal.com/"><img
+                                                src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/4.1.4/flags/4x3/fr.svg"
+                                                height="12"> Code Postal Mondial</a></li>
+                                    <li><a target="_blank" href="https://www.codigopostalmundo.com/"><img
+                                                src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/4.1.4/flags/4x3/es.svg"
+                                                height="12"> Código Postal Mundo</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div>
+                                <h4>Tools Available:</h4>
+                                <div>
+                                    <div>
+                                        <h3>Convert from CSV</h3>
+                                        <div>
+                                            <h4><a href="csv-table.html">Convert CSV to Table</a></h4>
+                                            <p>How To Convert CSV file to an HTML table? Copy your CSV data and click
+                                                convert button then html table will display in code below and you could
+                                                preview a HTML Table. You could control the result like: Double quotes
+                                                as data, Replace Accents, Add Line Numbers, Add Table Heading, Sum
+                                                Numeric Fields and so on.</p>
+                                        </div>
+                                        <div>
+                                            <h4><a href="csv-lines.html">Convert CSV to Lines</a></h4>
+                                            <p>How to convert a csv file to Multi-lines plain text file? Easy! Copy your
+                                                CSV data, paste them in text area, click the Converter button get your
+                                                result. The CSV each field will display in a new line. You can add
+                                                spaces or define the separator for your Multi-lines text result.</p>
+                                        </div>
+                                        <div>
+                                            <h4><a href="csv-kml.html">Convert CSV to KML</a></h4>
+                                            <p>The KML means Keyhole Markup Language, it is an XML notation for
+                                                expressing geographic annotation and visualization within
+                                                Internet-based, two or three-dimensional Earth browsers. To use this
+                                                tool, you need enter latitude and longitude and a description then get
+                                                your resutl, If you don't know how to do it, clicks the example get
+                                                instruction.</p>
+                                        </div>
+                                        <div>
+                                            <h4><a href="csv-yaml.html">Convert CSV to YAML</a></h4>
+                                            <p>YAML is a human-readable data serialization format that takes concepts
+                                                from programming languages such as Perl, C, and Python. The tool will
+                                                help you reformat CSV into XML format.</p>
+                                        </div>
+                                        <div>
+                                            <h4><a href="csv-xml.html">Convert CSV to XML</a></h4>
+                                            <p>XML means Extensible Markup Language. It is a markup language that
+                                                defines a set of rules for encoding documents in a format which is both
+                                                human-readable and machine-readable. The tool will help you convert a
+                                                CSV file to XML fomat, it will add markup for you CSV data.</p>
+                                        </div>
+                                        <div>
+                                            <h4><a href="csv-txt.html">Convert CSV to TXT</a></h4>
+                                            <p>The fixed width text file is a file that has a specific format which
+                                                textual data or information in an organized fashion. The tool will help
+                                                your convert a CSV data into fixed width text for read or use. You can
+                                                control the result like add ASCII Table, Separator Lines, Line Numbers
+                                                and so on.</p>
+                                        </div>
+                                        <div>
+                                            <h4><a href="csv-tsv.html">Convert CSV to TSV</a></h4>
+                                            <p>TSV means tab-separated values, The file is a simple text format for
+                                                storing data in a tabular structure (e.g. spreadsheet data or database).
+                                                DSV means delimiter-separated values, The file store two-dimensional
+                                                arrays of data by separating the values in each row with specific
+                                                delimiter characters. The tool will help you convert a CSV file to TSV
+                                                or DSV file. Copy you CSV data and paste them in text area, choose a new
+                                                delimiter get your reformat file.</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h3>Convert to CSV</h3>
+                                        <div>
+                                            <h4><a href="table-csv.html">Convert Table TO CSV</a></h4>
+                                            <p>How To Convert HTML Table file to CSV file? Copy and paste your HTML
+                                                Table code into the text area, select the option like "Wrap values,
+                                                Change line breaks to space, Remove HTML tags" then get your result.<<
+                                                    /p>
+                                        </div>
+                                        <div>
+                                            <h4><a href="xml-csv.html">Convert XML TO CSV</a></h4>
+                                            <p>XML means Extensible Markup Language. The tool will help you convert a
+                                                XML file to CSV file. You could change the result style like "wrap
+                                                vaules, include header, suppress line breaks" for your use.</p>
+                                        </div>
+                                        <div>
+                                            <h4><a href="yaml-csv.html">Convert YAML TO CSV</a></h4>
+                                            <p>YAML is a human-readable data serialization format. The tool will help
+                                                you reformat YAML into CSV format. You could change the result style
+                                                like "wrap vaules, include header, suppress line breaks" for your use.
+                                            </p>
+                                        </div>
+                                        </li>
+                                    </div>
+                                    <div>
+                                        <h3>CSV Viewer</h3>
+                                        <div>
+                                            <h4><a href="csv-viewer.html">CSV Viewer</a></h4>
+                                            <p>The tool will help you view your CSV or various formats of delimited
+                                                files online when load your file. The CSV Viewer is very powerful, in
+                                                the display filed, click the column heading it will sort the columns,
+                                                move cursor to right side of column heading resize your columns and so
+                                                on.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="alert alert-info">Copyright ©2012~2023 <a href="index.html">Be CSV</a> | <a
+                        href="http://www.allcallers.com/">AllCallers</a> | <a
+                        href="http://www.callerinfo.org/">CallerInfo</a> | <a target="_blank" class="dropdown-item"
+                        href="https://www.thinkcalculator.com/">Think Calculators</a> | <a target="_blank"
+                        class="dropdown-item" href="https://www.callerinfo.org/">Area Codes</a></div>
+            </div>
+        </div>
+    </div>
 </body>
 
 <!-- Mirrored from www.becsv.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 19 Nov 2023 01:39:50 GMT -->
+
 </html>
